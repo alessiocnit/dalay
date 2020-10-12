@@ -1,0 +1,1351 @@
+TOPOLOGY
+{
+	[DOMAIN_BLOCK]
+	{
+		NETWORK_DOMAIN Nord
+		{
+		ID 0;
+		NODES 1 2 4 5 8 9 12 13 17 20 21 22 23 24;
+		PCE_NODE_ID 21;
+		}
+
+		NETWORK_DOMAIN Sud
+		{
+		ID 1;
+		NODES 0 3 6 7 10 11 14 15 16 18 19 25 26 27;
+		PCE_NODE_ID 27;
+		}
+	}
+	[NODE_BLOCK]
+	{
+		OXC_CONVERT Madrid
+		{
+		ID 0;
+		XPOS 508;
+		YPOS 53;
+		TRX_BITRATE 12;
+		}
+
+		OXC_CONVERT London
+		{
+		ID 1;
+		XPOS 512;
+		YPOS 112;
+		TRX_BITRATE 12;
+		}
+
+		OXC_CONVERT Paris
+		{
+		ID 2;
+		XPOS 585;
+		YPOS 31;
+		TRX_BITRATE 12;
+		}
+
+		OXC_CONVERT Lyon
+		{
+		ID 3;
+		XPOS 795 ;
+		YPOS 97 ;
+		TRX_BITRATE 12;
+		}
+
+		OXC_CONVERT Brussels
+		{
+		ID 4;
+		XPOS 795 ;
+		YPOS 97 ;
+		TRX_BITRATE 12;
+		}
+
+		OXC_CONVERT Frankfurt
+		{
+		ID 5;
+		XPOS 795 ;
+		YPOS 97 ;
+		TRX_BITRATE 12;
+		}
+
+		OXC_CONVERT Milan
+		{
+		ID 6;
+		XPOS 795 ;
+		YPOS 97 ;
+		TRX_BITRATE 12;
+		}
+
+		OXC_CONVERT Rome
+		{
+		ID 7;
+		XPOS 795 ;
+		YPOS 97 ;
+		TRX_BITRATE 12;
+		}
+
+		OXC_CONVERT Oslo
+		{
+		ID 8;
+		XPOS 795 ;
+		YPOS 97 ;
+		TRX_BITRATE 12;
+		}
+
+		OXC_CONVERT Berlin
+		{
+		ID 9;
+		XPOS 795 ;
+		YPOS 97 ;
+		TRX_BITRATE 12;
+		}
+
+		OXC_CONVERT Vienna
+        	{
+        	ID 10;
+        	XPOS 795 ;
+        	YPOS 97 ;
+        	TRX_BITRATE 12;
+        	}
+
+	        OXC_CONVERT Athens
+        	{
+    	    	ID 11;
+	        XPOS 795 ;
+	        YPOS 97 ;
+	        TRX_BITRATE 12;
+	        }
+  
+	        OXC_CONVERT Stockholm
+	        {
+	        ID 12;
+	        XPOS 795 ;
+	        YPOS 97 ;
+	        TRX_BITRATE 12;
+	        }
+		
+		OXC_CONVERT Warsaw
+	        {
+	        ID 13;	
+	        XPOS 795 ;
+	        YPOS 97 ;
+	        TRX_BITRATE 12;
+	        }
+		
+		OXC_CONVERT Budapest
+	        {
+	        ID 14;
+	        XPOS 795 ;
+	        YPOS 97 ;
+	        TRX_BITRATE 12;
+	        }
+
+		OXC_CONVERT Bordeaux
+	        {
+	        ID 15;
+	        XPOS 795 ;
+	        YPOS 97 ;
+	        TRX_BITRATE 12;
+	        }
+
+		OXC_CONVERT Barcelona
+	        {
+	        ID 16;
+	        XPOS 795 ;
+	        YPOS 97 ;
+	        TRX_BITRATE 12;
+	        }
+
+		OXC_CONVERT Strasbourg
+	        {
+	        ID 17;
+	        XPOS 795 ;
+	        YPOS 97 ;
+	        TRX_BITRATE 12;
+	        }
+
+		OXC_CONVERT Zurich
+	        {
+	        ID 18;
+	        XPOS 795 ;
+	        YPOS 97 ;
+	        TRX_BITRATE 12;
+	        }
+
+		OXC_CONVERT Munich
+	        {
+	        ID 19;
+	        XPOS 795 ;
+	        YPOS 97 ;
+	        TRX_BITRATE 12;
+	        }
+
+		OXC_CONVERT Amsterdam
+	        {
+	        ID 20;
+	        XPOS 795 ;
+	        YPOS 97 ;
+	        TRX_BITRATE 12;
+	        }
+
+		OXC_CONVERT Hamburg
+	        {
+	        ID 21;
+	        XPOS 795 ;
+	        YPOS 97 ;
+	        TRX_BITRATE 12;
+	        }
+
+		OXC_CONVERT Glasgow
+	        {
+	        ID 22;
+	        XPOS 795 ;
+	        YPOS 97 ;
+	        TRX_BITRATE 12;
+	        }
+
+		OXC_CONVERT Dublin
+	        {
+	        ID 23;
+	        XPOS 795 ;
+	        YPOS 97 ;
+	        TRX_BITRATE 12;
+	        }
+
+		OXC_CONVERT Copenhagen
+	        {
+	        ID 24;
+	        XPOS 795 ;
+	        YPOS 97 ;
+	        TRX_BITRATE 12;
+	        }
+
+		OXC_CONVERT Prague
+	        {
+	        ID 25;
+	        XPOS 795 ;
+	        YPOS 97 ;
+	        TRX_BITRATE 12;
+	        }
+
+		OXC_CONVERT Belgrade
+	        {
+	        ID 26;
+	        XPOS 795 ;
+	        YPOS 97 ;
+	        TRX_BITRATE 12;
+	        }
+
+		OXC_CONVERT Marseille
+	        {
+	        ID 27;
+	        XPOS 795 ;
+	        YPOS 97 ;
+	        TRX_BITRATE 12;
+	        }
+	}
+
+	[LINK_BLOCK]
+	{
+    		UNIDIR UNI1 Madrid Bordeaux
+		{
+		   ID 0;
+		   DISTANCE 553;
+		   MAXBYTE 1E8;
+		   NUM_CHANNEL 4;
+		   DELAY 1;
+		   BITRATE 1E9;
+		}
+
+		UNIDIR UNI1 Madrid Barcelona
+		{
+		   ID 1;
+		   DISTANCE 506;
+		   MAXBYTE 1E8;
+		   NUM_CHANNEL 4;
+		   DELAY 1;
+		   BITRATE 1E9;
+		}
+
+		UNIDIR UNI1 Paris London
+		{
+		   ID 2;
+		   DISTANCE 341;
+		   MAXBYTE 1E8;
+		   NUM_CHANNEL 4;
+		   DELAY 1;
+		   BITRATE 1E9;
+		}
+
+		UNIDIR UNI1 Paris Brussels
+		{
+		   ID 3;
+		   DISTANCE 266;
+		   MAXBYTE 1E8;
+		   NUM_CHANNEL 4;
+		   DELAY 1;
+		   BITRATE 1E9;
+		}
+
+		UNIDIR UNI1 Paris Lyon
+		{
+		   ID 4;
+		   DISTANCE 390;
+		   MAXBYTE 1E8;
+		   NUM_CHANNEL 4;
+		   DELAY 1;
+		   BITRATE 1E9;
+		}
+
+		UNIDIR UNI1 Lyon Zurich
+		{
+		   ID 5;
+		   DISTANCE 330;
+		   MAXBYTE 1E8;
+		   NUM_CHANNEL 4;
+		   DELAY 1;
+		   BITRATE 1E9;
+		}
+
+		UNIDIR UNI1 Lyon Barcelona
+		{
+		   ID 6;
+		   DISTANCE 524;
+		   MAXBYTE 1E8;
+		   NUM_CHANNEL 4;
+		   DELAY 1;
+		   BITRATE 1E9;
+		}
+
+		UNIDIR UNI1 Milan Rome
+		{
+		   ID 7;
+		   DISTANCE 484;
+		   MAXBYTE 1E8;
+		   NUM_CHANNEL 4;
+		   DELAY 1;
+		   BITRATE 1E9;
+		}
+
+		UNIDIR UNI1 Rome Athens
+		{
+		   ID 8;
+		   DISTANCE 1050;
+		   MAXBYTE 1E8;
+		   NUM_CHANNEL 4;
+		   DELAY 1;
+		   BITRATE 1E9;
+		}
+
+		UNIDIR UNI1 Milan Vienna
+		{
+		   ID 9;
+		   DISTANCE 620;
+		   MAXBYTE 1E8;
+		   NUM_CHANNEL 4;
+		   DELAY 1;
+		   BITRATE 1E9;
+		}
+
+		UNIDIR UNI1 Vienna Budapest
+		{
+		   ID 10;
+		   DISTANCE 219;
+		   MAXBYTE 1E8;
+		   NUM_CHANNEL 4;
+		   DELAY 1;
+		   BITRATE 1E9;
+		}
+
+		UNIDIR UNI1 Vienna Prague
+		{
+		   ID 11;
+		   DISTANCE 245;
+		   MAXBYTE 1E8;
+		   NUM_CHANNEL 4;
+		   DELAY 1;
+		   BITRATE 1E9;
+		}
+
+		UNIDIR UNI1 Vienna Munich
+		{
+		   ID 12;
+		   DISTANCE 410;
+		   MAXBYTE 1E8;
+		   NUM_CHANNEL 4;
+		   DELAY 1;
+		   BITRATE 1E9;
+		}
+
+		UNIDIR UNI1 Frankfurt Brussels
+		{
+		   ID 13;
+		   DISTANCE 313;
+		   MAXBYTE 1E8;
+		   NUM_CHANNEL 4;
+		   DELAY 1;
+		   BITRATE 1E9;
+		}
+
+		UNIDIR UNI1 Frankfurt Berlin
+		{
+		   ID 14;
+		   DISTANCE 418;
+		   MAXBYTE 1E8;
+		   NUM_CHANNEL 4;
+		   DELAY 1;
+		   BITRATE 1E9;
+		}
+
+		UNIDIR UNI1 London Brussels
+		{
+		   ID 15;
+		   DISTANCE 310;
+		   MAXBYTE 1E8;
+		   NUM_CHANNEL 4;
+		   DELAY 1;
+		   BITRATE 1E9;
+		}
+
+		UNIDIR UNI1 Brussels Amsterdam
+		{
+		   ID 16;
+		   DISTANCE 174;
+		   MAXBYTE 1E8;
+		   NUM_CHANNEL 4;
+		   DELAY 1;
+		   BITRATE 1E9;
+		}
+
+		UNIDIR UNI1 Oslo Copenhagen
+		{
+		   ID 17;
+		   DISTANCE 491;
+		   MAXBYTE 1E8;
+		   NUM_CHANNEL 4;
+		   DELAY 1;
+		   BITRATE 1E9;
+		}
+
+		UNIDIR UNI1 Berlin Copenhagen
+		{
+		   ID 18;
+		   DISTANCE 360;
+		   MAXBYTE 1E8;
+		   NUM_CHANNEL 4;
+		   DELAY 1;
+		   BITRATE 1E9;
+		}
+
+		UNIDIR UNI1 Berlin Warsaw
+		{
+		   ID 19;
+		   DISTANCE 513;
+		   MAXBYTE 1E8;
+		   NUM_CHANNEL 4;
+		   DELAY 1;
+		   BITRATE 1E9;
+		}
+
+        	UNIDIR UNI1 Stockholm Warsaw
+        	{
+        	ID 20;
+        	DISTANCE 807;
+        	MAXBYTE 1E8;
+        	NUM_CHANNEL 4;
+        	DELAY 1;
+        	BITRATE 1E9;
+        	}
+
+                UNIDIR UNI1 Rome Marseille
+                {
+                   ID 21;
+                   DISTANCE 550;
+                   MAXBYTE 1E8;
+                   NUM_CHANNEL 4;
+                   DELAY 1;
+                   BITRATE 1E9;
+                }
+
+                UNIDIR UNI1 Budapest Belgrade
+                {
+                   ID 22;
+                   DISTANCE 315;
+                   MAXBYTE 1E8;
+                   NUM_CHANNEL 4;
+                   DELAY 1;
+                   BITRATE 1E9;
+                }
+
+               UNIDIR UNI1 Belgrade Athens
+                {
+                   ID 23;
+                   DISTANCE 800;
+                   MAXBYTE 1E8;
+                   NUM_CHANNEL 4;
+                   DELAY 1;
+                   BITRATE 1E9;
+                }
+
+                UNIDIR UNI1 Prague Budapest
+                {
+                   ID 24;
+                   DISTANCE 441;
+                   MAXBYTE 1E8;
+                   NUM_CHANNEL 4;
+                   DELAY 1;
+                   BITRATE 1E9;
+                }
+
+                UNIDIR UNI1 Rome Vienna
+                {
+                   ID 25;
+                   DISTANCE 761;
+                   MAXBYTE 1E8;
+                   NUM_CHANNEL 4;
+                   DELAY 1;
+                   BITRATE 1E9;
+                }
+
+               UNIDIR UNI1 Rome Belgrade
+                {
+                   ID 26;
+                   DISTANCE 720;
+                   MAXBYTE 1E8;
+                   NUM_CHANNEL 4;
+                   DELAY 1;
+                   BITRATE 1E9;
+                }
+
+                UNIDIR UNI1 Vienna Belgrade
+                {
+                   ID 27;
+                   DISTANCE 490;
+                   MAXBYTE 1E8;
+                   NUM_CHANNEL 4;
+                   DELAY 1;
+                   BITRATE 1E9;
+                }
+
+                UNIDIR UNI1 Prague Warsaw 
+                {
+                   ID 28;
+                   DISTANCE 506;
+                   MAXBYTE 1E8;
+                   NUM_CHANNEL 4;
+                   DELAY 1;
+                   BITRATE 1E9;
+                }
+
+               UNIDIR UNI1 Prague Berlin
+                {
+                   ID 29;
+                   DISTANCE 282;
+                   MAXBYTE 1E8;
+                   NUM_CHANNEL 4;
+                   DELAY 1;
+                   BITRATE 1E9;
+                }
+
+                UNIDIR UNI1 Berlin Hamburg
+                {
+                   ID 30;
+                   DISTANCE 257;
+                   MAXBYTE 1E8;
+                   NUM_CHANNEL 4;
+                   DELAY 1;
+                   BITRATE 1E9;
+                }
+
+                UNIDIR UNI1 Oslo Stockholm
+                {
+                   ID 31;
+                   DISTANCE 413;
+                   MAXBYTE 1E8;
+                   NUM_CHANNEL 4;
+                   DELAY 1;
+                   BITRATE 1E9;
+                }
+
+               UNIDIR UNI1 Glasgow London
+                {
+                   ID 32;
+                   DISTANCE 546;
+                   MAXBYTE 1E8;
+                   NUM_CHANNEL 4;
+                   DELAY 1;
+                   BITRATE 1E9;
+                }
+
+                UNIDIR UNI1 Milan Marseille
+                {
+                   ID 33;
+                   DISTANCE 450;
+                   MAXBYTE 1E8;
+                   NUM_CHANNEL 4;
+                   DELAY 1;
+                   BITRATE 1E9;
+                }
+
+                UNIDIR UNI1 Hamburg Frankfurt
+                {
+                   ID 34;
+                   DISTANCE 391;
+                   MAXBYTE 1E8;
+                   NUM_CHANNEL 4;
+                   DELAY 1;
+                   BITRATE 1E9;
+                }
+
+               UNIDIR UNI1 Frankfurt Strasbourg
+                {
+                   ID 35;
+                   DISTANCE 181;
+                   MAXBYTE 1E8;
+                   NUM_CHANNEL 4;
+                   DELAY 1;
+                   BITRATE 1E9;
+                }
+
+                UNIDIR UNI1 Munich Zurich
+                {
+                   ID 36;
+                   DISTANCE 239;
+                   MAXBYTE 1E8;
+                   NUM_CHANNEL 4;
+                   DELAY 1;
+                   BITRATE 1E9;
+                }
+
+                UNIDIR UNI1 Munich Milan
+                {
+                   ID 37;
+                   DISTANCE 341;
+                   MAXBYTE 1E8;
+                   NUM_CHANNEL 4;
+                   DELAY 1;
+                   BITRATE 1E9;
+                }
+
+               UNIDIR UNI1 Zurich Milan
+                {
+                   ID 38;
+                   DISTANCE 218;
+                   MAXBYTE 1E8;
+                   NUM_CHANNEL 4;
+                   DELAY 1;
+                   BITRATE 1E9;
+                }
+
+                UNIDIR UNI1 Barcelona Marseille
+                {
+                   ID 39;
+                   DISTANCE 450;
+                   MAXBYTE 1E8;
+                   NUM_CHANNEL 4;
+                   DELAY 1;
+                   BITRATE 1E9;
+                }
+
+                UNIDIR UNI1 Marseille Lyon
+                {
+                   ID 40;
+                   DISTANCE 385;
+                   MAXBYTE 1E8;
+                   NUM_CHANNEL 4;
+                   DELAY 1;
+                   BITRATE 1E9;
+                }
+
+               UNIDIR UNI1 Bordeaux Lyon
+                {
+                   ID 41;
+                   DISTANCE 432;
+                   MAXBYTE 1E8;
+                   NUM_CHANNEL 4;
+                   DELAY 1;
+                   BITRATE 1E9;
+                }
+
+                UNIDIR UNI1 Paris Strasbourg
+                {
+                   ID 42;
+                   DISTANCE 400;
+                   MAXBYTE 1E8;
+                   NUM_CHANNEL 4;
+                   DELAY 1;
+                   BITRATE 1E9;
+                }
+
+                UNIDIR UNI1 Paris Bordeaux
+                {
+                   ID 43;
+                   DISTANCE 500;
+                   MAXBYTE 1E8;
+                   NUM_CHANNEL 4;
+                   DELAY 1;
+                   BITRATE 1E9;
+                }
+
+               UNIDIR UNI1 Bordeaux Barcelona
+                {
+                   ID 44;
+                   DISTANCE 436;
+                   MAXBYTE 1E8;
+                   NUM_CHANNEL 4;
+                   DELAY 1;
+                   BITRATE 1E9;
+                }
+
+                UNIDIR UNI1 London Dublin
+                {
+                   ID 45;
+                   DISTANCE 468;
+                   MAXBYTE 1E8;
+                   NUM_CHANNEL 4;
+                   DELAY 1;
+                   BITRATE 1E9;
+                }
+
+                UNIDIR UNI1 Paris Dublin
+                {
+                   ID 46;
+                   DISTANCE 786;
+                   MAXBYTE 1E8;
+                   NUM_CHANNEL 4;
+                   DELAY 1;
+                   BITRATE 1E9;
+                }
+
+               UNIDIR UNI1 Dublin Glasgow
+                {
+                   ID 47;
+                   DISTANCE 313;
+                   MAXBYTE 1E8;
+                   NUM_CHANNEL 4;
+                   DELAY 1;
+                   BITRATE 1E9;
+                }
+
+		UNIDIR UNI1 Glasgow Oslo
+                {
+                   ID 48;
+                   DISTANCE 989;
+                   MAXBYTE 1E8;
+                   NUM_CHANNEL 4;
+                   DELAY 1;
+                   BITRATE 1E9;
+                }
+
+		UNIDIR UNI1 Glasgow Amsterdam
+                {
+                   ID 49;
+                   DISTANCE 710;
+                   MAXBYTE 1E8;
+                   NUM_CHANNEL 4;
+                   DELAY 1;
+                   BITRATE 1E9;
+                }
+
+		UNIDIR UNI1 London Amsterdam
+                {
+                   ID 50;
+                   DISTANCE 351;
+                   MAXBYTE 1E8;
+                   NUM_CHANNEL 4;
+                   DELAY 1;
+                   BITRATE 1E9;
+                }
+
+		UNIDIR UNI1 Amsterdam Hamburg
+                {
+                   ID 51;
+                   DISTANCE 361;
+                   MAXBYTE 1E8;
+                   NUM_CHANNEL 4;
+                   DELAY 1;
+                   BITRATE 1E9;
+                }
+
+		UNIDIR UNI1 Hamburg Copenhagen
+                {
+                   ID 52;
+                   DISTANCE 292;
+                   MAXBYTE 1E8;
+                   NUM_CHANNEL 4;
+                   DELAY 1;
+                   BITRATE 1E9;
+                }
+
+		UNIDIR UNI1 Frankfurt Munich
+                {
+                   ID 53;
+                   DISTANCE 300;
+                   MAXBYTE 1E8;
+                   NUM_CHANNEL 4;
+                   DELAY 1;
+                   BITRATE 1E9;
+                }
+
+		UNIDIR UNI1 Copenhagen Stockholm
+                {
+                   ID 54;
+                   DISTANCE 515;
+                   MAXBYTE 1E8;
+                   NUM_CHANNEL 4;
+                   DELAY 1;
+                   BITRATE 1E9;
+                }
+
+		UNIDIR UNI1 Bordeaux Madrid
+		{
+		ID 55;
+		DISTANCE 553;
+		MAXBYTE 1E8;
+		NUM_CHANNEL 4;
+		DELAY 1;
+		BITRATE 1E9;
+		}
+
+		UNIDIR UNI1 Barcelona Madrid
+		{
+		ID 56;
+		DISTANCE 506;
+		MAXBYTE 1E8;
+		NUM_CHANNEL 4;
+		DELAY 1;
+		BITRATE 1E9;
+		}
+
+		UNIDIR UNI1 London Paris
+		{
+		ID 57;
+		DISTANCE 341;
+		MAXBYTE 1E8;
+		NUM_CHANNEL 4;
+		DELAY 1;
+		BITRATE 1E9;
+		}
+
+		UNIDIR UNI1 Brussels Paris
+		{
+		ID 58;
+		DISTANCE 266;
+		MAXBYTE 1E8;
+		NUM_CHANNEL 4;
+		DELAY 1;
+		BITRATE 1E9;
+		}
+
+		UNIDIR UNI1 Lyon Paris
+		{
+		ID 59;
+		DISTANCE 390;
+		MAXBYTE 1E8;
+		NUM_CHANNEL 4;
+		DELAY 1;
+		BITRATE 1E9;
+		}
+
+		UNIDIR UNI1 Zurich Lyon
+		{
+		ID 60;
+		DISTANCE 330;
+		MAXBYTE 1E8;
+		NUM_CHANNEL 4;
+		DELAY 1;
+		BITRATE 1E9;
+		}
+
+		UNIDIR UNI1 Barcelona Lyon
+		{
+		ID 61;
+		DISTANCE 524;
+		MAXBYTE 1E8;
+		NUM_CHANNEL 4;
+		DELAY 1;
+		BITRATE 1E9;
+		}
+
+		UNIDIR UNI1 Rome Milan
+		{
+		ID 62;
+		DISTANCE 484;
+		MAXBYTE 1E8;
+		NUM_CHANNEL 4;
+		DELAY 1;
+		BITRATE 1E9;
+		}
+
+		UNIDIR UNI1 Athens Rome
+		{
+		ID 63;
+		DISTANCE 1050;
+		MAXBYTE 1E8;
+		NUM_CHANNEL 4;
+		DELAY 1;
+		BITRATE 1E9;
+		}
+
+		UNIDIR UNI1 Vienna Milan
+		{
+		ID 64;
+		DISTANCE 620;
+		MAXBYTE 1E8;
+		NUM_CHANNEL 4;
+		DELAY 1;
+		BITRATE 1E9;
+		}
+
+		UNIDIR UNI1 Budapest Vienna
+		{
+		ID 65;
+		DISTANCE 219;
+		MAXBYTE 1E8;
+		NUM_CHANNEL 4;
+		DELAY 1;
+		BITRATE 1E9;
+		}
+
+		UNIDIR UNI1 Prague Vienna
+		{
+		ID 66;
+		DISTANCE 245;
+		MAXBYTE 1E8;
+		NUM_CHANNEL 4;
+		DELAY 1;
+		BITRATE 1E9;
+		}
+
+		UNIDIR UNI1 Munich Vienna
+		{
+		ID 67;
+		DISTANCE 410;
+		MAXBYTE 1E8;
+		NUM_CHANNEL 4;
+		DELAY 1;
+		BITRATE 1E9;
+		}
+
+		UNIDIR UNI1 Brussels Frankfurt
+		{
+		ID 68;
+		DISTANCE 313;
+		MAXBYTE 1E8;
+		NUM_CHANNEL 4;
+		DELAY 1;
+		BITRATE 1E9;
+		}
+
+		UNIDIR UNI1 Berlin Frankfurt
+		{
+		ID 69;
+		DISTANCE 418;
+		MAXBYTE 1E8;
+		NUM_CHANNEL 4;
+		DELAY 1;
+		BITRATE 1E9;
+		}
+
+		UNIDIR UNI1 Brussels London
+		{
+		ID 70;
+		DISTANCE 310;
+		MAXBYTE 1E8;
+		NUM_CHANNEL 4;
+		DELAY 1;
+		BITRATE 1E9;
+		}
+
+		UNIDIR UNI1 Amsterdam Brussels
+		{
+		ID 71;
+		DISTANCE 174;
+		MAXBYTE 1E8;
+		NUM_CHANNEL 4;
+		DELAY 1;
+		BITRATE 1E9;
+		}
+
+		UNIDIR UNI1 Copenhagen Oslo
+		{
+		ID 72;
+		DISTANCE 491;
+		MAXBYTE 1E8;
+		NUM_CHANNEL 4;
+		DELAY 1;
+		BITRATE 1E9;
+		}
+
+		UNIDIR UNI1 Copenhagen Berlin
+		{
+		ID 73;
+		DISTANCE 360;
+		MAXBYTE 1E8;
+		NUM_CHANNEL 4;
+		DELAY 1;
+		BITRATE 1E9;
+		}
+
+		UNIDIR UNI1 Warsaw Berlin
+		{
+		ID 74;
+		DISTANCE 513;
+		MAXBYTE 1E8;
+		NUM_CHANNEL 4;
+		DELAY 1;
+		BITRATE 1E9;
+		}
+
+		UNIDIR UNI1 Warsaw Stockholm
+		{
+		ID 75;
+		DISTANCE 807;
+		MAXBYTE 1E8;
+		NUM_CHANNEL 4;
+		DELAY 1;
+		BITRATE 1E9;
+		}
+
+		UNIDIR UNI1 Marseille Rome
+		{
+		ID 76;
+		DISTANCE 550;
+		MAXBYTE 1E8;
+		NUM_CHANNEL 4;
+		DELAY 1;
+		BITRATE 1E9;
+		}
+
+		UNIDIR UNI1 Belgrade Budapest
+		{
+		ID 77;
+		DISTANCE 315;
+		MAXBYTE 1E8;
+		NUM_CHANNEL 4;
+		DELAY 1;
+		BITRATE 1E9;
+		}
+
+		UNIDIR UNI1 Athens Belgrade
+		{
+		ID 78;
+		DISTANCE 800;
+		MAXBYTE 1E8;
+		NUM_CHANNEL 4;
+		DELAY 1;
+		BITRATE 1E9;
+		}
+
+		UNIDIR UNI1 Budapest Prague
+		{
+		ID 79;
+		DISTANCE 441;
+		MAXBYTE 1E8;
+		NUM_CHANNEL 4;
+		DELAY 1;
+		BITRATE 1E9;
+		}
+
+		UNIDIR UNI1 Vienna Rome
+		{
+		ID 80;
+		DISTANCE 761;
+		MAXBYTE 1E8;
+		NUM_CHANNEL 4;
+		DELAY 1;
+		BITRATE 1E9;
+		}
+
+		UNIDIR UNI1 Belgrade Rome
+		{
+		ID 81;
+		DISTANCE 720;
+		MAXBYTE 1E8;
+		NUM_CHANNEL 4;
+		DELAY 1;
+		BITRATE 1E9;
+		}
+
+		UNIDIR UNI1 Belgrade Vienna
+		{
+		ID 82;
+		DISTANCE 490;
+		MAXBYTE 1E8;
+		NUM_CHANNEL 4;
+		DELAY 1;
+		BITRATE 1E9;
+		}
+
+		UNIDIR UNI1 Warsaw Prague
+		{
+		ID 83;
+		DISTANCE 506;
+		MAXBYTE 1E8;
+		NUM_CHANNEL 4;
+		DELAY 1;
+		BITRATE 1E9;
+		}
+
+		UNIDIR UNI1 Berlin Prague
+		{
+		ID 84;
+		DISTANCE 282;
+		MAXBYTE 1E8;
+		NUM_CHANNEL 4;
+		DELAY 1;
+		BITRATE 1E9;
+		}
+
+		UNIDIR UNI1 Hamburg Berlin
+		{
+		ID 85;
+		DISTANCE 257;
+		MAXBYTE 1E8;
+		NUM_CHANNEL 4;
+		DELAY 1;
+		BITRATE 1E9;
+		}
+
+		UNIDIR UNI1 Stockholm Oslo
+		{
+		ID 86;
+		DISTANCE 413;
+		MAXBYTE 1E8;
+		NUM_CHANNEL 4;
+		DELAY 1;
+		BITRATE 1E9;
+		}
+
+		UNIDIR UNI1 London Glasgow
+		{
+		ID 87;
+		DISTANCE 546;
+		MAXBYTE 1E8;
+		NUM_CHANNEL 4;
+		DELAY 1;
+		BITRATE 1E9;
+		}
+
+		UNIDIR UNI1 Marseille Milan
+		{
+		ID 88;
+		DISTANCE 450;
+		MAXBYTE 1E8;
+		NUM_CHANNEL 4;
+		DELAY 1;
+		BITRATE 1E9;
+		}
+
+		UNIDIR UNI1 Frankfurt Hamburg
+		{
+		ID 89;
+		DISTANCE 391;
+		MAXBYTE 1E8;
+		NUM_CHANNEL 4;
+		DELAY 1;
+		BITRATE 1E9;
+		}
+
+		UNIDIR UNI1 Strasbourg Frankfurt
+		{
+		ID 90;
+		DISTANCE 181;
+		MAXBYTE 1E8;
+		NUM_CHANNEL 4;
+		DELAY 1;
+		BITRATE 1E9;
+		}
+
+		UNIDIR UNI1 Zurich Munich
+		{
+		ID 91;
+		DISTANCE 239;
+		MAXBYTE 1E8;
+		NUM_CHANNEL 4;
+		DELAY 1;
+		BITRATE 1E9;
+		}
+
+		UNIDIR UNI1 Milan Munich
+		{
+		ID 92;
+		DISTANCE 341;
+		MAXBYTE 1E8;
+		NUM_CHANNEL 4;
+		DELAY 1;
+		BITRATE 1E9;
+		}
+
+		UNIDIR UNI1 Milan Zurich
+		{
+		ID 93;
+		DISTANCE 218;
+		MAXBYTE 1E8;
+		NUM_CHANNEL 4;
+		DELAY 1;
+		BITRATE 1E9;
+		}
+
+		UNIDIR UNI1 Marseille Barcelona
+		{
+		ID 94;
+		DISTANCE 450;
+		MAXBYTE 1E8;
+		NUM_CHANNEL 4;
+		DELAY 1;
+		BITRATE 1E9;
+		}
+
+		UNIDIR UNI1 Lyon Marseille
+		{
+		ID 95;
+		DISTANCE 385;
+		MAXBYTE 1E8;
+		NUM_CHANNEL 4;
+		DELAY 1;
+		BITRATE 1E9;
+		}
+
+		UNIDIR UNI1 Lyon Bordeaux
+		{
+		ID 96;
+		DISTANCE 432;
+		MAXBYTE 1E8;
+		NUM_CHANNEL 4;
+		DELAY 1;
+		BITRATE 1E9;
+		}
+
+		UNIDIR UNI1 Strasbourg Paris
+		{
+		ID 97;
+		DISTANCE 400;
+		MAXBYTE 1E8;
+		NUM_CHANNEL 4;
+		DELAY 1;
+		BITRATE 1E9;
+		}
+
+		UNIDIR UNI1 Bordeaux Paris
+		{
+		ID 98;
+		DISTANCE 500;
+		MAXBYTE 1E8;
+		NUM_CHANNEL 4;
+		DELAY 1;
+		BITRATE 1E9;
+		}
+
+		UNIDIR UNI1 Barcelona Bordeaux
+		{
+		ID 99;
+		DISTANCE 436;
+		MAXBYTE 1E8;
+		NUM_CHANNEL 4;
+		DELAY 1;
+		BITRATE 1E9;
+		}
+
+		UNIDIR UNI1 Dublin London
+		{
+		ID 100;
+		DISTANCE 468;
+		MAXBYTE 1E8;
+		NUM_CHANNEL 4;
+		DELAY 1;
+		BITRATE 1E9;
+		}
+
+		UNIDIR UNI1 Dublin Paris
+		{
+		ID 101;
+		DISTANCE 786;
+		MAXBYTE 1E8;
+		NUM_CHANNEL 4;
+		DELAY 1;
+		BITRATE 1E9;
+		}
+
+		UNIDIR UNI1 Glasgow Dublin
+		{
+		ID 102;
+		DISTANCE 313;
+		MAXBYTE 1E8;
+		NUM_CHANNEL 4;
+		DELAY 1;
+		BITRATE 1E9;
+		}
+
+		UNIDIR UNI1 Oslo Glasgow
+		{
+		ID 103;
+		DISTANCE 989;
+		MAXBYTE 1E8;
+		NUM_CHANNEL 4;
+		DELAY 1;
+		BITRATE 1E9;
+		}
+
+		UNIDIR UNI1 Amsterdam Glasgow
+		{
+		ID 104;
+		DISTANCE 710;
+		MAXBYTE 1E8;
+		NUM_CHANNEL 4;
+		DELAY 1;
+		BITRATE 1E9;
+		}
+
+		UNIDIR UNI1 Amsterdam London
+		{
+		ID 105;
+		DISTANCE 351;
+		MAXBYTE 1E8;
+		NUM_CHANNEL 4;
+		DELAY 1;
+		BITRATE 1E9;
+		}
+
+		UNIDIR UNI1 Hamburg Amsterdam
+		{
+		ID 106;
+		DISTANCE 361;
+		MAXBYTE 1E8;
+		NUM_CHANNEL 4;
+		DELAY 1;
+		BITRATE 1E9;
+		}
+
+		UNIDIR UNI1 Copenhagen Hamburg
+		{
+		ID 107;
+		DISTANCE 292;
+		MAXBYTE 1E8;
+		NUM_CHANNEL 4;
+		DELAY 1;
+		BITRATE 1E9;
+		}
+
+		UNIDIR UNI1 Munich Frankfurt
+		{
+		ID 108;
+		DISTANCE 300;
+		MAXBYTE 1E8;
+		NUM_CHANNEL 4;
+		DELAY 1;
+		BITRATE 1E9;
+		}
+
+		UNIDIR UNI1 Stockholm Copenhagen
+		{
+		ID 109;
+		DISTANCE 515;
+		MAXBYTE 1E8;
+		NUM_CHANNEL 4;
+		DELAY 1;
+		BITRATE 1E9;
+		}
+ 	}
+
+
+
+

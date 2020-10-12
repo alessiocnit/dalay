@@ -1,0 +1,7 @@
+./script_flexible_lambda_PtoloD: line 5: 30684 Terminated              ./opmode PtoloD 256 432 43200 10 100 > test_PtoloD_lambda.out
+./script_flexible_lambda_PtoloD: line 5: 30686 Terminated              ./opmode PtoloD 256 216 43200 10 100 >> test_PtoloD_lambda.out
+./script_flexible_lambda_PtoloD: line 5: 30687 Terminated              ./opmode PtoloD 256 172 43200 10 100 >> test_PtoloD_lambda.out
+./script_flexible_lambda_PtoloD: line 5: 31265 Terminated              ./opmode PtoloD 256 432 43200 10 100 > test_PtoloD_lambda.out
+./script_flexible_lambda_PtoloD: line 5: 31267 Terminated              ./opmode PtoloD 256 216 43200 10 100 >> test_PtoloD_lambda.out
+./script_flexible_lambda_PtoloD: line 5: 31268 Terminated              ./opmode PtoloD 256 172 43200 10 100 >> test_PtoloD_lambda.out
+./script_flexible_lambda_PtoloD: line 10: 31266 Terminated              ./opmode PtoloD 256 288 43200 10 100 >> test_PtoloD_lambda.out

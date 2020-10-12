@@ -1,0 +1,27 @@
+#!/bin/bash
+./brpc_journal PtoloMD 256 36   3600 10 100 >  test_PtoloMD_lambda.out &
+./brpc_journal PtoloMD 256 24   3600 10 100 >> test_PtoloMD_lambda.out &
+./brpc_journal PtoloMD 256 18   3600 10 100 >> test_PtoloMD_lambda.out &
+./brpc_journal PtoloMD 256 14   3600 10 100 >> test_PtoloMD_lambda.out
+
+./brpc_journal PtoloMD 256 12   3600 10 100 >> test_PtoloMD_lambda.out &
+./brpc_journal PtoloMD 256 10   3600 10 100 >> test_PtoloMD_lambda.out &
+./brpc_journal PtoloMD 256 9    3600 10 100 >> test_PtoloMD_lambda.out &
+./brpc_journal PtoloMD 256 8    3600 10 100 >> test_PtoloMD_lambda.out
+
+./brpc_journal PtoloMD 256 7.2  3600 10 100 >> test_PtoloMD_lambda.out &
+./brpc_journal PtoloMD 256 6.5  3600 10 100 >> test_PtoloMD_lambda.out &
+./brpc_journal PtoloMD 256 6.0  3600 10 100 >> test_PtoloMD_lambda.out &
+./brpc_journal PtoloMD 256 5.5  3600 10 100 >> test_PtoloMD_lambda.out
+
+./brpc_journal PtoloMD 256 4.8  3600 10 100 >> test_PtoloMD_lambda.out &
+./brpc_journal PtoloMD 256 4.5  3600 10 100 >> test_PtoloMD_lambda.out &
+./brpc_journal PtoloMD 256 4.2  3600 10 100 >> test_PtoloMD_lambda.out &
+./brpc_journal PtoloMD 256 4.0  3600 10 100 >> test_PtoloMD_lambda.out 
+
+./brpc_journal PtoloMD 256 3.75  3600 10 100 >> test_PtoloMD_lambda.out &
+./brpc_journal PtoloMD 256 3.58  3600 10 100 >> test_PtoloMD_lambda.out &
+./brpc_journal PtoloMD 256 3.42  3600 10 100 >> test_PtoloMD_lambda.out &
+./brpc_journal PtoloMD 256 3.25  3600 10 100 >> test_PtoloMD_lambda.out 
+
+

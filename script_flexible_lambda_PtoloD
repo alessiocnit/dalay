@@ -1,0 +1,27 @@
+#!/bin/bash
+./opmode PtoloD 256 432 43200 10 100 >  test_PtoloD_lambda.out &
+./opmode PtoloD 256 288 43200 10 100 >> test_PtoloD_lambda.out &
+./opmode PtoloD 256 216 43200 10 100 >> test_PtoloD_lambda.out &
+./opmode PtoloD 256 172 43200 10 100 >> test_PtoloD_lambda.out
+
+./opmode PtoloD 256 144 43200 10 100 >> test_PtoloD_lambda.out &
+./opmode PtoloD 256 123 43200 10 100 >> test_PtoloD_lambda.out &
+./opmode PtoloD 256 108 43200 10 100 >> test_PtoloD_lambda.out &
+./opmode PtoloD 256 96  43200 10 100 >> test_PtoloD_lambda.out
+
+./opmode PtoloD 256 86  43200 10 100 >> test_PtoloD_lambda.out &
+./opmode PtoloD 256 78  43200 10 100 >> test_PtoloD_lambda.out &
+./opmode PtoloD 256 72  43200 10 100 >> test_PtoloD_lambda.out &
+./opmode PtoloD 256 66  43200 10 100 >> test_PtoloD_lambda.out
+
+./opmode PtoloD 256 58  43200 10 100 >> test_PtoloD_lambda.out &
+./opmode PtoloD 256 54  43200 10 100 >> test_PtoloD_lambda.out &
+./opmode PtoloD 256 51  43200 10 100 >> test_PtoloD_lambda.out &
+./opmode PtoloD 256 48  43200 10 100 >> test_PtoloD_lambda.out 
+
+./opmode PtoloD 256 45  43200 10 100 >> test_PtoloD_lambda.out &
+./opmode PtoloD 256 43  43200 10 100 >> test_PtoloD_lambda.out &
+./opmode PtoloD 256 41  43200 10 100 >> test_PtoloD_lambda.out &
+./opmode PtoloD 256 39  43200 10 100 >> test_PtoloD_lambda.out 
+
+

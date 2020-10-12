@@ -1,0 +1,17 @@
+#!/bin/bash
+./brpc PtoloMD 256 10 5000 10 10  >  test_oxct_PtoloMD.out &
+./brpc PtoloMD 256 10 5000 10 25  >> test_oxct_PtoloMD.out &
+./brpc PtoloMD 256 10 5000 10 50  >> test_oxct_PtoloMD.out &
+./brpc PtoloMD 256 10 5000 10 75  >> test_oxct_PtoloMD.out
+
+./brpc PtoloMD 256 10 5000 10 100 >> test_oxct_PtoloMD.out &
+./brpc PtoloMD 256 10 5000 10 150 >> test_oxct_PtoloMD.out &
+./brpc PtoloMD 256 10 5000 10 200 >> test_oxct_PtoloMD.out &
+./brpc PtoloMD 256 10 5000 10 250 >> test_oxct_PtoloMD.out 
+
+./brpc PtoloMD 256 10 5000 10 300 >> test_oxct_PtoloMD.out &
+./brpc PtoloMD 256 10 5000 10 350 >> test_oxct_PtoloMD.out &
+./brpc PtoloMD 256 10 5000 10 400 >> test_oxct_PtoloMD.out &
+./brpc PtoloMD 256 10 5000 10 450 >> test_oxct_PtoloMD.out
+
+
